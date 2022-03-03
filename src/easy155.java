@@ -92,9 +92,12 @@ public class easy155 {
 
     @Test
     public void main() {
-        int[] a = new int[10];
+        int[] a = new int[]{1,2,3,4,4,5,5,6,6,6,7,7};
         System.out.println(a.length);
-        a = Arrays.copyOf(a, 20);
+        a = Arrays.copyOf(a, 10);//第二个参数是新容量，如果比原容量大，则扩展，反之，则去除后面多余的内容（尾巴删掉，比如{1,2,3,4,4,5,5,6,6,6,7,7}变{1,2,3,4,4,5,5,6,6,6）
         System.out.println(a.length);
+        for (int i : a) {
+            System.out.println(i);
+        }
     }
 }
