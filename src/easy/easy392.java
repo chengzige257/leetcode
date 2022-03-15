@@ -1,3 +1,5 @@
+package easy;
+
 import org.testng.annotations.Test;
 
 public class easy392 {
@@ -48,20 +50,37 @@ public class easy392 {
 //        }
 //        return i == n;
 //    }
-public boolean isSubsequence(String s, String t) {//100%
-    int index = -1;
-    for (int i = 0; i < s.length(); i++) {
-        char c = s.charAt(i);
-        int temp = t.indexOf(c,index + 1);
-        if(temp == -1) {
-            return false;
-        }else {
-            index = temp;
+//    public boolean isSubsequence(String s, String t) {//100%
+//        int index = -1;
+//        for (int i = 0; i < s.length(); i++) {
+//            char c = s.charAt(i);
+//            int temp = t.indexOf(c,index + 1);
+//            if(temp == -1) {
+//                return false;
+//            }else {
+//                index = temp;
+//            }
+//        }
+//        return true;
+//    }
+    public boolean isSubsequence(String s, String t) {//11%
+        int m = s.length();
+        int n = t.length();
+        int[][] dp = new int[m+1][n+1];
+        int max = 0;
+        for(int i = 1;i<=m;i++){
+            for(int j =1;j<=n;j++){
+                if(s.charAt(i-1)==t.charAt(j-1)){
+                    dp[i][j] = dp[i-1][j-1]+1;
+                    if(dp[i][j]>max)
+                        max = dp[i][j];
+                }else{
+                    dp[i][j] = Math.max(dp[i-1][j],dp[i][j-1]);
+                }
+            }
         }
+        return max==s.length();
     }
-    return true;
-}
-
 
     @Test
     public void main() {
