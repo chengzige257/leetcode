@@ -2,8 +2,6 @@ package medium;
 
 import org.testng.annotations.Test;
 
-import java.util.PriorityQueue;
-import java.util.Queue;
 
 public class m45 {//跳跃游戏Ⅱ
 
