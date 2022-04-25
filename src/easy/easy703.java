@@ -1,7 +1,6 @@
 import org.testng.annotations.Test;
 
 import java.util.Arrays;
-import java.util.PriorityQueue;
 
 public class easy703 {//数据流中的第K大元素
 
@@ -11,7 +10,8 @@ public class easy703 {//数据流中的第K大元素
         int[] nums;
         public KthLargest(int k, int[] nums) {
             this.k = k;
-            sort(nums);
+            sort(nums);//从大向小排列
+            //取前k个元素
             if(k<=nums.length)
                 this.nums = Arrays.copyOfRange(nums, 0, k);
             else{
@@ -33,7 +33,7 @@ public class easy703 {//数据流中的第K大元素
             return nums[0];
         }
 
-        void sort(int[] nums){
+        void sort(int[] nums){//从大向小排列
             for(int i = 0;i<k;i++){
                 int index = i;
                 for(int j = i+1;j<nums.length;j++){
@@ -49,12 +49,13 @@ public class easy703 {//数据流中的第K大元素
             }
         }
 
-        void sort(){
+        void sort(){//
+            // 构建小根堆
             for(int q = (k-2)/2;q >= 0;q--){
                 heapify(q,k-1);
             }
         }
-
+        //堆排序
         void heapify(int i,int hight){
             int j = 2*i+1;
             while(j<=hight){
