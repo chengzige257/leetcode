@@ -1,6 +1,9 @@
+package easy;
+
 import org.testng.annotations.Test;
 
 import java.util.Arrays;
+import java.util.PriorityQueue;
 
 public class easy703 {//数据流中的第K大元素
 
@@ -10,16 +13,13 @@ public class easy703 {//数据流中的第K大元素
         int[] nums;
         public KthLargest(int k, int[] nums) {
             this.k = k;
-            sort(nums);//从大向小排列
-            //取前k个元素
-            if(k<=nums.length)
-                this.nums = Arrays.copyOfRange(nums, 0, k);
-            else{
-                this.nums = Arrays.copyOfRange(nums, 0, k);
-                for(int i = k-1;i>=nums.length;i--)
-                    this.nums[i] = Integer.MIN_VALUE;
-            }
+            this.nums = Arrays.copyOf(nums,k);
+            if(k-nums.length==1)
+                this.nums[k-1] = -10001;
             sort();
+            for(int i = k;i<nums.length;i++){
+                add(nums[i]);
+            }
         }
 
         public int add(int val) {
@@ -28,26 +28,26 @@ public class easy703 {//数据流中的第K大元素
                 return nums[0];
             }else{
                 nums[0] = val;
-                sort();
+                heapify(0,k-1);
             }
             return nums[0];
         }
 
-        void sort(int[] nums){//从大向小排列
-            for(int i = 0;i<k;i++){
-                int index = i;
-                for(int j = i+1;j<nums.length;j++){
-                    if(nums[j]>nums[index]){
-                        index = j;
-                    }
-                }
-                if(index!=i){
-                    int temp = nums[i];
-                    nums[i] = nums[index];
-                    nums[index] = temp;
-                }
-            }
-        }
+//        void sort(int[] nums){//从大向小排列，选择排序
+//            for(int i = 0;i<k;i++){
+//                int index = i;
+//                for(int j = i+1;j<nums.length;j++){
+//                    if(nums[j]>nums[index]){
+//                        index = j;
+//                    }
+//                }
+//                if(index!=i){
+//                    int temp = nums[i];
+//                    nums[i] = nums[index];
+//                    nums[index] = temp;
+//                }
+//            }
+//        }
 
         void sort(){//
             // 构建小根堆
