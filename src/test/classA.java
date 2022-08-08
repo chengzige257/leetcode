@@ -9,8 +9,8 @@ public class classA {
     classC c = new classC();
     classB b = new classB();
     void test2(){
+
         classC.e =2;
-//        classC.f = 2;//需要实例化普通内部类后才能调用非静态变量
         classB b = new classB();
 //        classB.e = 2;//需要实例化静态内部类后才能调用非静态变量，像b.e = 2
         b.e = 2;
@@ -27,6 +27,9 @@ public class classA {
     }
     public class classC{
         static int e = 1;//可以定义一个静态成员变量
+        static{
+            System.out.println("InnerClass static load.");
+        }
         int f =1;
         public static void test4(){//可以创建静态方法
             System.out.println(11);
@@ -45,4 +48,6 @@ public class classA {
         d.test4();//可以通过实例调用静态方法
         classA.classC.test4();//也可以通过”类名.“调用
     }
+
+
 }
