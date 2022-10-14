@@ -2,7 +2,7 @@ package medium;
 
 import org.testng.annotations.Test;
 
-public class m5 {//最长回文子串
+public class m5 {
 
     public String longestPalindrome(String s){
         String ss = preprocess(s);
