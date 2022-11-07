@@ -1,6 +1,6 @@
 package hard;
 
-import mians.ListNode;
+import bean.ListNode;
 import org.testng.annotations.Test;
 
 public class h25 {

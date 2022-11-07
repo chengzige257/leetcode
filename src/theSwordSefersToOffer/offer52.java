@@ -1,8 +1,7 @@
 package theSwordSefersToOffer;
 
-import mians.ListNode;
+import bean.ListNode;
 
-import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Set;
 

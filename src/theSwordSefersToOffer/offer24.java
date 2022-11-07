@@ -1,6 +1,6 @@
 package theSwordSefersToOffer;
 
-import mians.ListNode;
+import bean.ListNode;
 
 public class offer24 {//反转链表
     public ListNode reverseList(ListNode head) {

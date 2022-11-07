@@ -1,6 +1,6 @@
 package theSwordSefersToOffer;
 
-import mians.TreeNode;
+import bean.TreeNode;
 
 public class offer54 {
     public int kthLargest(TreeNode root, int k) {

@@ -30,15 +30,27 @@ public class m123 {
 //        return dp[4];
 //    }
     //版本三
-    public int maxProfit(int[] prices) {//动态规划版本二，优化空间
+//    public int maxProfit(int[] prices) {//动态规划版本二，优化空间
+//        int length = prices.length;
+//        int[] dp = new int[5];
+//        dp[1] = dp[3] = prices[0];
+//        for (int i = 1; i < length; i++) {
+//            dp[1] = Math.min(prices[i] - dp[0], dp[1]);
+//            dp[2] = Math.max(prices[i] - dp[1], dp[2]);
+//            dp[3] = Math.min(prices[i] - dp[2], dp[3]);
+//            dp[4] = Math.max(prices[i] - dp[3], dp[4]);
+//        }
+//        return dp[4];
+//    }
+    public int maxProfit(int[] prices) {
         int length = prices.length;
         int[] dp = new int[5];
-        dp[1] = dp[3] = prices[0];
+        dp[1] = dp[3] = -prices[0];
         for (int i = 1; i < length; i++) {
-            dp[1] = Math.min(prices[i] - dp[0], dp[1]);
-            dp[2] = Math.max(prices[i] - dp[1], dp[2]);
-            dp[3] = Math.min(prices[i] - dp[2], dp[3]);
-            dp[4] = Math.max(prices[i] - dp[3], dp[4]);
+            dp[1] = Math.max(- prices[i], dp[1]);
+            dp[2] = Math.max(dp[1] + prices[i], dp[2]);
+            dp[3] = Math.max(dp[2] - prices[i], dp[3]);
+            dp[4] = Math.max(dp[3] + prices[i], dp[4]);
         }
         return dp[4];
     }

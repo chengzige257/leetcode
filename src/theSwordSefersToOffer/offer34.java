@@ -1,15 +1,12 @@
 package theSwordSefersToOffer;
 
-import mians.TreeNode;
+import bean.TreeNode;
 import org.testng.annotations.Test;
 
 import java.util.ArrayList;
-import java.util.LinkedList;
 import java.util.List;
-import java.util.Stack;
-import java.util.stream.Collectors;
 
-import static mians.TreeNode.generateTreeNode;
+import static bean.TreeNode.generateTreeNode;
 
 
 public class offer34 {//二叉树中和为某一值的路径

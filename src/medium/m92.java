@@ -1,9 +1,7 @@
 package medium;
 
-import mians.ListNode;
+import bean.ListNode;
 import org.testng.annotations.Test;
-
-import java.util.List;
 
 public class m92 {//反转链表Ⅱ
     public ListNode reverseBetween(ListNode head, int left, int right) {

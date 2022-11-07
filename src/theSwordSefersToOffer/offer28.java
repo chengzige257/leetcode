@@ -1,6 +1,6 @@
 package theSwordSefersToOffer;
 
-import mians.TreeNode;
+import bean.TreeNode;
 
 public class offer28 {//对称的二叉树
 

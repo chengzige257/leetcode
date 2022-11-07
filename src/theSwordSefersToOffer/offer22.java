@@ -1,6 +1,6 @@
 package theSwordSefersToOffer;
 
-import mians.ListNode;
+import bean.ListNode;
 
 public class offer22 {//链表中倒数第k个节点
     public ListNode getKthFromEnd(ListNode head, int k) {

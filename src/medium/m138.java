@@ -1,6 +1,6 @@
 package medium;
 
-import mians.Node;
+import bean.Node;
 
 import java.util.HashMap;
 import java.util.Map;

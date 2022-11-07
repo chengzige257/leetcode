@@ -1,6 +1,6 @@
 package theSwordSefersToOffer;
 
-import mians.ListNode;
+import bean.ListNode;
 
 public class offer18 {//删除链表的节点
     public ListNode deleteNode(ListNode head, int val) {

@@ -1,6 +1,6 @@
 package medium;
 
-import mians.ListNode;
+import bean.ListNode;
 
 public class m24 {//两两交换链表中的节点
     public ListNode swapPairs(ListNode head) {

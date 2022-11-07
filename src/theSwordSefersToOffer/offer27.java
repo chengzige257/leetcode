@@ -1,6 +1,6 @@
 package theSwordSefersToOffer;
 
-import mians.TreeNode;
+import bean.TreeNode;
 
 public class offer27 {//226 二叉树的镜像
     public TreeNode mirrorTree(TreeNode root) {

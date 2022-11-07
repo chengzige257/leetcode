@@ -1,6 +1,6 @@
 package medium;
 
-import mians.ListNode;
+import bean.ListNode;
 import org.testng.annotations.Test;
 
 public class m19 {//删除链表的倒数第n个节点

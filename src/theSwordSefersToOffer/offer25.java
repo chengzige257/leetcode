@@ -1,6 +1,6 @@
 package theSwordSefersToOffer;
 
-import mians.ListNode;
+import bean.ListNode;
 
 public class offer25 {//合并两个排序的链表
     public ListNode mergeTwoLists(ListNode list1, ListNode list2) {

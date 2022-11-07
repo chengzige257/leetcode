@@ -1,11 +1,9 @@
 package medium;
 
-import mians.TreeNode;
+import bean.TreeNode;
 import org.testng.annotations.Test;
 
-import java.util.ArrayList;
 import java.util.LinkedList;
-import java.util.List;
 import java.util.Queue;
 
 public class m1161 {

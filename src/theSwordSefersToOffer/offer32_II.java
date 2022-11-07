@@ -1,7 +1,7 @@
 package theSwordSefersToOffer;
 
 
-import mians.TreeNode;
+import bean.TreeNode;
 
 import java.util.ArrayList;
 import java.util.LinkedList;

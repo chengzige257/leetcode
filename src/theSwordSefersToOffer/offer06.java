@@ -1,6 +1,6 @@
 package theSwordSefersToOffer;
 
-import mians.ListNode;
+import bean.ListNode;
 import org.testng.annotations.Test;
 
 import java.util.Arrays;
