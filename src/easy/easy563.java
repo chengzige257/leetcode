@@ -1,5 +1,4 @@
-import java.util.ArrayList;
-import java.util.List;
+package easy;
 
 public class easy563 {//二叉树的坡度
 

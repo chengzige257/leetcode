@@ -1,3 +1,5 @@
+package easy;
+
 public class easy509 {//斐波那契数列
     public int fib(int n) {
         if(n<=1)

@@ -1,3 +1,5 @@
+package easy;
+
 import org.testng.annotations.Test;
 
 public class easy26 {//删除有序数组中的重复项

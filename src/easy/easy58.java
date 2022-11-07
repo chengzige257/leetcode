@@ -1,3 +1,5 @@
+package easy;
+
 import org.testng.annotations.Test;
 
 public class easy58 {//最后一个单词的长度

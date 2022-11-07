@@ -1,6 +1,7 @@
+package easy;
+
 import org.testng.annotations.Test;
 
-import java.util.Arrays;
 import java.util.Stack;
 
 public class easy572 {//另一颗树的子树

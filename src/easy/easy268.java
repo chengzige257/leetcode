@@ -1,3 +1,5 @@
+package easy;
+
 public class easy268 {//
 //    丢失的数字
     public int missingNumber(int[] nums) {

@@ -1,3 +1,5 @@
+package easy;
+
 import org.testng.annotations.Test;
 
 public class easy6 {//Z字形变换

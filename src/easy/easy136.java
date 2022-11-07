@@ -1,4 +1,4 @@
-import org.testng.annotations.Test;
+package easy;
 
 public class easy136 {//只出现一次的数字
 

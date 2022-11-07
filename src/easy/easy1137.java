@@ -1,3 +1,5 @@
+package easy;
+
 public class easy1137 {//第N个泰伯那契数
     public int tribonacci(int n) {
         if (n == 0) {

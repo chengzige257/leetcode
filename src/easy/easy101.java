@@ -1,6 +1,6 @@
 package easy;
 
-import mians.TreeNode;
+import bean.TreeNode;
 
 public class easy101 {
     public boolean isSymmetric(TreeNode root) {

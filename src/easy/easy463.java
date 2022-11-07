@@ -1,3 +1,5 @@
+package easy;
+
 import org.testng.annotations.Test;
 
 public class easy463 {//岛屿的周长

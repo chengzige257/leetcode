@@ -1,6 +1,6 @@
 package easy;
 
-import mians.TreeNode;
+import bean.TreeNode;
 
 public class easy226 {
     public TreeNode invertTree(TreeNode root) {

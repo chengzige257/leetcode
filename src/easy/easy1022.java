@@ -1,3 +1,5 @@
+package easy;
+
 import org.testng.annotations.Test;
 
 public class easy1022 {//从根到叶的二进制数之和

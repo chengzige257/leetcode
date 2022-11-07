@@ -1,3 +1,5 @@
+package easy;
+
 public class easy237 {//删除链表中的节点
 
     public class ListNode {

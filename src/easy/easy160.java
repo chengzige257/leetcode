@@ -1,5 +1,4 @@
-import java.util.HashSet;
-import java.util.Set;
+package easy;
 
 public class easy160 {//相交链表
 

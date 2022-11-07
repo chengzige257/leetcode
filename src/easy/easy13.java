@@ -1,3 +1,5 @@
+package easy;
+
 import org.testng.annotations.Test;
 
 public class easy13 {
@@ -23,7 +25,7 @@ public class easy13 {
                 res+=cur;
         }
         return res+getVal(s.charAt(s.length()-1));
-    };
+    }
     public int getVal(char c){
         switch (c){
             case 'I':

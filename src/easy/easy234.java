@@ -1,4 +1,4 @@
-
+package easy;
 
 public class easy234 {
     class ListNode {

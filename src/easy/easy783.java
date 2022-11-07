@@ -1,4 +1,4 @@
-import java.util.Stack;
+package easy;
 
 public class easy783 {
 

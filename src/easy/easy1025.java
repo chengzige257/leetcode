@@ -1,3 +1,5 @@
+package easy;
+
 public class easy1025 {
 
     //除数博弈

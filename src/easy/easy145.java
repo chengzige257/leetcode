@@ -1,6 +1,6 @@
 package easy;
 
-import mians.TreeNode;
+import bean.TreeNode;
 
 import java.util.ArrayList;
 import java.util.List;

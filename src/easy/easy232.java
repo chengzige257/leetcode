@@ -1,4 +1,5 @@
-import java.util.Queue;
+package easy;
+
 import java.util.Stack;
 
 public class easy232 {

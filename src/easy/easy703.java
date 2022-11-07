@@ -3,7 +3,6 @@ package easy;
 import org.testng.annotations.Test;
 
 import java.util.Arrays;
-import java.util.PriorityQueue;
 
 public class easy703 {//数据流中的第K大元素
 

@@ -1,3 +1,5 @@
+package easy;
+
 public class easy876 {//链表的中间节点
 
     class ListNode {

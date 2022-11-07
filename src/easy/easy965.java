@@ -1,3 +1,5 @@
+package easy;
+
 import java.util.Stack;
 
 public class easy965 {//单值二叉树

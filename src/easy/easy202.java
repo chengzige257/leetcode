@@ -1,7 +1,6 @@
-import org.testng.annotations.Test;
+package easy;
 
-import java.util.HashSet;
-import java.util.Set;
+import org.testng.annotations.Test;
 
 public class easy202 {//快乐树
 //    public boolean isHappy(int n) {

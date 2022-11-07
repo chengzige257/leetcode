@@ -1,7 +1,6 @@
-import org.testng.annotations.Test;
+package easy;
 
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
+import org.testng.annotations.Test;
 
 public class easy8 {
     public int myAtoi(String s) {

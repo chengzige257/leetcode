@@ -1,6 +1,6 @@
-import org.testng.annotations.Test;
+package easy;
 
-import java.util.Arrays;
+import org.testng.annotations.Test;
 
 public class easy66 {//加一
 

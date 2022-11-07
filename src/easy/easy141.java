@@ -1,3 +1,5 @@
+package easy;
+
 import org.testng.annotations.Test;
 
 import java.util.HashSet;

@@ -1,3 +1,5 @@
+package easy;
+
 import java.util.Stack;
 
 public class easy700 {//二叉搜索树的搜索

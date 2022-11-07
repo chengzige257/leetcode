@@ -1,3 +1,5 @@
+package easy;
+
 public class easy338 {//比特位计数
 
 

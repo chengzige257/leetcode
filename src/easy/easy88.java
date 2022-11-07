@@ -1,9 +1,6 @@
-import org.testng.annotations.Test;
+package easy;
 
-import java.util.Arrays;
-import java.util.LinkedList;
-import java.util.Queue;
-import java.util.Stack;
+import org.testng.annotations.Test;
 
 public class easy88 {//合并两个有序数组
 //    public void merge(int[] nums1, int m, int[] nums2, int n) {//我的垃圾方法，耗时多，思想还复杂17%

@@ -1,3 +1,5 @@
+package easy;
+
 public class easy628 {
 
     public int maximumProduct(int[] nums) {

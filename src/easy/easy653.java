@@ -1,3 +1,5 @@
+package easy;
+
 import java.util.*;
 
 public class easy653 {//两数之和IV，输入BST

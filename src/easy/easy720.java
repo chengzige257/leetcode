@@ -1,7 +1,6 @@
-import org.testng.annotations.Test;
+package easy;
 
-import java.util.ArrayList;
-import java.util.List;
+import org.testng.annotations.Test;
 
 public class easy720 {//词典中最长的单词
 

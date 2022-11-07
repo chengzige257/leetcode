@@ -1,6 +1,6 @@
-import org.testng.annotations.Test;
+package easy;
 
-import java.util.Map;
+import org.testng.annotations.Test;
 
 public class easy9 {
     //回文数

@@ -1,9 +1,9 @@
+package easy;
+
 import org.testng.annotations.Test;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
-import java.util.stream.Collectors;
 
 public class easy118 {
     //执行耗时:3 ms,击败了7.75% 的Java用户

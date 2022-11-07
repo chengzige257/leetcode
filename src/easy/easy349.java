@@ -1,5 +1,6 @@
+package easy;
+
 import java.util.*;
-import java.util.stream.Collectors;
 
 public class easy349 {//两个数组的交集
 

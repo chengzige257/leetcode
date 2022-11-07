@@ -1,3 +1,5 @@
+package easy;
+
 public class easy561 {//数组拆分
 //    public int arrayPairSum(int[] nums) {
 //        int sum = 0;

@@ -1,3 +1,5 @@
+package easy;
+
 public class easy206 {//反转链表
     public class ListNode {
         int val;

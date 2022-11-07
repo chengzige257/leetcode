@@ -1,3 +1,5 @@
+package easy;
+
 public class easy1290 {//二进制链表转整数
     public class ListNode {
         int val;

@@ -1,3 +1,5 @@
+package easy;
+
 public class easy566 {//重塑矩阵
     public int[][] matrixReshape(int[][] mat, int r, int c) {
 
